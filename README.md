@@ -1,4 +1,4 @@
-# HomeBrew ProB
+# Homebrew ProB
 
 [Homebrew](http://brew.sh) tap to install the [ProB](https://www3.hhu.de/stups/prob/index.php/Main_Page) model checker and animator.
 
