@@ -24,11 +24,14 @@ class ProbNightly < Formula
     mv "#{bin}/StartProb.sh", "#{bin}/prob-tk"
   end
 
-  def caveats; <<-EOS.undent
-    Depends on:
-    Tcl/TK 8.5
-    Java Runtime Environment or better Java JDK (7.0 or newer)
-  EOS
+  def caveats;
+    cmd = "#{bin}/probcli -check_java_version"
+    msg = <<-EOS.undent
+      Depends on:
+      Tcl/TK 8.5
+      Java Runtime Environment or better Java JDK (7.0 or newer)
+    EOS
+    msg += `#{cmd}`
   end
 
   test do
