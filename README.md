@@ -2,7 +2,7 @@
 
 [Homebrew](http://brew.sh) tap to install the [ProB](https://www3.hhu.de/stups/prob/index.php/Main_Page) model checker and animator.
 
-This tap provides two formulae (`prob` and `prob-nightlu`) to either install the latests release or nightly build of ProB. 
+This tap provides two formulae (`prob` and `prob-nightly`) to either install the latests release or nightly build of ProB. 
 
 Installing either formula will provide two commands to run the GUI or the command-line versions of ProB.
 
