@@ -2,14 +2,9 @@ class Prob < Formula
   desc "The ProB Animator and Model Checker"
   homepage "https://www3.hhu.de/stups/prob/index.php/Main_Page"
 
-  url "https://www3.hhu.de/stups/downloads/prob/tcltk/releases/1.5.0/ProB.mac_os.10.6.8.x86_64.tar.gz"
-  version "1.5.0"
-  sha256 "04499f49ea8c4f2ce97d84b4bd2552db10ab3afd51c771cc9d66ceaac9f6642c"
-
-  # Use prob-nightly instead
-  # head do
-  #   url "https://www3.hhu.de/stups/downloads/prob/tcltk/nightly/ProB.mac_os.10.11.3.x86_64.tar.gz"
-  # end
+  url "https://www3.hhu.de/stups/downloads/prob/tcltk/releases/1.6.0/ProB.mac_os.10.11.4.x86_64.tar.gz"
+  version "1.6.0-SR1"
+  sha256 "3f9bcb6ddd08cab22f953b0c15c41240dcc65c6f4f62adda24a8ba680669adb9"
 
   bottle :unneeded
 
