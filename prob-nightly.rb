@@ -2,7 +2,7 @@ class ProbNightly < Formula
   desc "The ProB Animator and Model Checker - Nightly Build"
   homepage "https://www3.hhu.de/stups/prob/index.php/Main_Page"
 
-  url "https://www3.hhu.de/stups/downloads/prob/tcltk/nightly/ProB.mac_os.10.11.4.x86_64.tar.gz"
+  url "https://www3.hhu.de/stups/downloads/prob/tcltk/nightly/ProB.mac_os.10.11.6.x86_64.tar.gz"
   #
   # We use the current date to identify each nightly build
   version Time.now.strftime("%Y%m%d")
@@ -18,10 +18,10 @@ class ProbNightly < Formula
     rm_f Dir["bin/*.bat"]
     libexec.install Dir["*"]
     bin.write_exec_script Dir["#{libexec}/probcli.sh"]
-    mv "#{bin}/probcli.sh", "#{bin}/probcli"
+    bin.install "#{bin}/probcli.sh" => "probcli"
 
     bin.write_exec_script Dir["#{libexec}/StartProb.sh"]
-    mv "#{bin}/StartProb.sh", "#{bin}/prob-tk"
+    bin.install "#{bin}/StartProb.sh" => "prob-tk"
   end
 
   def caveats;
