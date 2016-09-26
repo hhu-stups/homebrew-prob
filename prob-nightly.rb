@@ -2,7 +2,7 @@ class ProbNightly < Formula
   desc "The ProB Animator and Model Checker - Nightly Build"
   homepage "https://www3.hhu.de/stups/prob/index.php/Main_Page"
 
-  url "https://www3.hhu.de/stups/downloads/prob/tcltk/nightly/ProB.mac_os.10.12.x86_64.tar.gz"
+  url "https://www3.hhu.de/stups/downloads/prob/tcltk/nightly/ProB.mac_os.x86_64.tar.gz"
   #
   # We use the current date to identify each nightly build
   version Time.now.strftime("%Y%m%d")
