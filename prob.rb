@@ -2,8 +2,8 @@ class Prob < Formula
   desc "The ProB Animator and Model Checker"
   homepage "https://www3.hhu.de/stups/prob/index.php/Main_Page"
 
-  url "https://www3.hhu.de/stups/downloads/prob/tcltk/releases/1.7.0/ProB.mac_os.x86_64.tar.gz"
-  version "1.7.0"
+  url "https://www3.hhu.de/stups/downloads/prob/tcltk/releases/1.7.1/ProB.mac_os.x86_64.tar.gz"
+  version "1.7.1"
   sha256 "ddf2b218d68a03444ab38627b7f39d5b8a43749c77d9058071a912e18bc41359"
 
   bottle :unneeded
