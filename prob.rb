@@ -4,7 +4,7 @@ class Prob < Formula
 
   url "https://www3.hhu.de/stups/downloads/prob/tcltk/releases/1.7.1/ProB.mac_os.x86_64.tar.gz"
   version "1.7.1"
-  sha256 "ddf2b218d68a03444ab38627b7f39d5b8a43749c77d9058071a912e18bc41359"
+  sha256 "dcf11c6d14c7deae0272c5102953f5ae4151f08b108923673a41af4a1276e6d7"
 
   bottle :unneeded
 
