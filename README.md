@@ -31,6 +31,13 @@ brew update
 brew upgrade prob-nightly
 ```
 
+## Updating Formula
+
+To update the `prob` formula after a new release you have to update the following fields in `prob.rb`:
+
+  * **url** The URL of the build.
+  * **version** the version string of the latest release.
+  * **sha256** The checksum of the build (Use: `shasum -a 256 <path-to-build.tar.gz>` to compute).
 
 ## License
 
