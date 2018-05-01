@@ -26,7 +26,7 @@ class ProbNightly < Formula
 
   def caveats;
     cmd = "#{bin}/probcli -check_java_version"
-    msg = <<-EOS.undent
+    msg = <<~EOS
       Depends on:
       Tcl/TK 8.5
       Java Runtime Environment or better Java JDK (7.0 or newer)
