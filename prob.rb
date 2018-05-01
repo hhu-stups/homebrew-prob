@@ -23,7 +23,7 @@ class Prob < Formula
     mv "#{bin}/StartProb.sh", "#{bin}/prob-tk"
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
     Depends on:
     Tcl/TK 8.5
     Java Runtime Environment or better Java JDK (7.0 or newer)
