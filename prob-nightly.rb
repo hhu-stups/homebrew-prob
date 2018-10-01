@@ -1,6 +1,6 @@
-require_relative 'base-prob'
+require_relative 'lib/base-prob'
 
-class ProbNightly < BaseProb
+class ProbNightly < BaseProB
   url "https://www3.hhu.de/stups/downloads/prob/tcltk/nightly/ProB.mac_os.x86_64.tar.gz"
   #
   # We use the current date to identify each nightly build

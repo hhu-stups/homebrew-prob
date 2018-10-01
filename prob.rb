@@ -1,4 +1,4 @@
-require_relative 'base-prob'
+require_relative 'lib/base-prob'
 class Prob < BaseProB
 
   url "https://www3.hhu.de/stups/downloads/prob/tcltk/releases/1.8.2/ProB.mac_os.x86_64.tar.gz"
