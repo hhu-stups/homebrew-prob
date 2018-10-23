@@ -10,7 +10,7 @@ class Prob < BaseProB
 
   devel do
     # We use the current date to identify each nightly build
-    version "nightly-" + Time.now.strftime("%Y%m%d")
+    version Time.now.strftime("%Y%m%d") + "-nightly"
 
     url "https://www3.hhu.de/stups/downloads/prob/tcltk/nightly/ProB.mac_os.x86_64.tar.gz"
   end
