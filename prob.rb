@@ -4,7 +4,7 @@ class Prob < BaseProB
 
   url "https://www3.hhu.de/stups/downloads/prob/tcltk/releases/1.9.0/ProB.mac_os.x86_64.tar.gz"
   version "1.9.0"
-  sha256 "139a99ee748f6dc0acdd4297a794675298b2d3ae308cd67532c06c1d42390524"
+  sha256 "525af6b977bd09ff84909898d3dabc34bd9d19598defbcaa5270a21dec94504e"
 
   bottle :unneeded
 
