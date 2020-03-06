@@ -3,8 +3,8 @@ require_relative 'lib/base-prob'
 class Prob < BaseProB
 
   url "https://www3.hhu.de/stups/downloads/prob/tcltk/releases/1.9.3/ProB.mac_os.x86_64.tar.gz"
-  version "1.9.0"
-  sha256 "525af6b977bd09ff84909898d3dabc34bd9d19598defbcaa5270a21dec94504e"
+  version "1.9.3"
+  sha256 "88ac328137929f8b9abfb45a07ebb89a5a1b9b3639a0c87ded83d5025d5cc27f"
 
   bottle :unneeded
 
