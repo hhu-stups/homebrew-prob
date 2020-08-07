@@ -8,7 +8,7 @@ class Prob < BaseProB
 
   bottle :unneeded
 
-  devel do
+  head do
     # We use the current date to identify each nightly build
     version Time.now.strftime("%Y%m%d") + "-nightly"
 

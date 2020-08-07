@@ -20,7 +20,7 @@ brew install hhu-stups/prob/prob
 To install the current **nightly build** run:
 
 ```
-brew install hhu-stups/prob/prob --devel
+brew install hhu-stups/prob/prob --head
 ```
 
 ## Updating Formula
