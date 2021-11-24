@@ -6,8 +6,6 @@ class Prob < BaseProB
   version "1.10.2"
   sha256 "4041e78abcc392b2583f2d674520ac14ecf8513aadd4a696c71eb3b8b9887508"
 
-  bottle :unneeded
-
   head do
     # We use the current date to identify each nightly build
     version Time.now.strftime("%Y%m%d") + "-nightly"
