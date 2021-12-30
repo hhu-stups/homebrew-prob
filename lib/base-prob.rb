@@ -21,7 +21,7 @@ class BaseProB < Formula
 
     msg = <<~EOS
       Depends on:
-      Tcl/TK 8.5
+      Tcl/TK 8.5/8.6
       Java Runtime Environment or better Java JDK (7.0 or newer)
     EOS
 

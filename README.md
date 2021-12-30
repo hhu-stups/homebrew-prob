@@ -29,7 +29,7 @@ To update the `prob` formula after a new release you have to update the followin
 
   * **url** The URL of the build.
   * **version** the version string of the latest release.
-  * **sha256** The checksum of the build (Use: `shasum -a 256 <path-to-build.tar.gz>` to compute).
+  * **sha256** The checksum of the build (Use: `shasum -a 256 <path-to-build.tar.gz>` to compute; extension can also be .zip).
 
 ## License
 
