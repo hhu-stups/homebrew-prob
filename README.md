@@ -11,6 +11,7 @@ Installing either version will provide two commands to run the GUI or the comman
 
 ## Installation
 
+
 To install the latest **release** run:
 
 ```
@@ -21,6 +22,12 @@ To install the current **nightly build** run:
 
 ```
 brew install hhu-stups/prob/prob --head
+```
+
+You can also add this repository as a tap from which to install do:
+
+```
+brew tap hhu-stups/prob
 ```
 
 ## Updating Formula

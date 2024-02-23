@@ -4,8 +4,7 @@ class BaseProB < Formula
 
   bottle :unneeded
 
-  depends_on :arch => :x86_64
-  depends_on :macos => :yosemite
+  depends_on :macos >= :mojave
 
   def install
     rm_f Dir["bin/*.bat"]
