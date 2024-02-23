@@ -24,6 +24,11 @@ To install the current **nightly build** run:
 brew install hhu-stups/prob/prob --head
 ```
 
+To obtain debugging info in case of problems you can run:
+```
+brew install -vd hhu-stups/prob/prob
+```
+
 You can also add this repository as a tap from which to install do:
 
 ```
