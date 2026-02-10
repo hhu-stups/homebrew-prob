@@ -6,7 +6,7 @@ class BaseProB < Formula
 
   depends_on :macos >= :mojave
 
-  def install
+  def source_install
     rm_f Dir["bin/*.bat"]
     libexec.install Dir["*"]
     bin.write_exec_script Dir["#{libexec}/probcli.sh"]
@@ -16,7 +16,7 @@ class BaseProB < Formula
     mv "#{bin}/StartProb.sh", "#{bin}/prob-tk"
   end
 
-  def caveats;
+  def source_caveats;
 
     msg = <<~EOS
       Depends on:
