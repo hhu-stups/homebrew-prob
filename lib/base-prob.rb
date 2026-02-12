@@ -2,8 +2,6 @@ class BaseProB < Formula
   desc "The ProB Animator and Model Checker"
   homepage "https://www3.hhu.de/stups/prob/index.php/Main_Page"
 
-  depends_on :macos >= :catalina
-
   def install
     rm_f Dir["bin/*.bat"]
     libexec.install Dir["*"]
