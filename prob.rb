@@ -2,9 +2,9 @@ require_relative 'lib/base-prob'
 
 class Prob < BaseProB
 
-  url "https://stups.hhu-hosting.de/downloads/prob/tcltk/releases/1.15.1/ProB.macos.zip"
-  version "1.15.1"
-  sha256 "6e85c88eee56ec7f18f4b1737693b1dc4bfbf4f9081c42def8c09afff48f24c2"
+  url "https://stups.hhu-hosting.de/downloads/prob/tcltk/releases/1.16.0/ProB.macos.zip"
+  version "1.16.0"
+  sha256 "88e45bfb59f312d15d2ed6e79881c10023bd59682fa582cdaed432ecb0bfa684"
 
   head do
     # We use the current date to identify each nightly build

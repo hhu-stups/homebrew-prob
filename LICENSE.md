@@ -1,4 +1,4 @@
-Copyright (c) 2016-2025, David Schneider, Michael Leuschel
+Copyright (c) 2016-2026, David Schneider, Michael Leuschel
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
