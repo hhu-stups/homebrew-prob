@@ -35,6 +35,11 @@ You can also add this repository as a tap from which to install do:
 brew tap hhu-stups/prob
 ```
 
+You may have to run this command to refresh the tap info before the above install commands:
+```
+brew update
+```
+
 ## Updating Formula
 
 To update the `prob` formula after a new release you have to update the following fields in `prob.rb`:
